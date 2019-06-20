@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="3" type="collection">
         <element attributes="edge_encryption_enabled=true,target_field=target,target_threshold_colors=0:salmon;33:crimson;66:pink;90:coral" label="% complete" max_length="15" name="complete" type="percent_complete"/>
         <element attributes="edge_encryption_enabled=true" label="progress" max_length="15" name="progress" type="percent_complete"/>
         <element attributes="edge_encryption_enabled=true" label="Target" max_length="20" name="target" type="decimal"/>
